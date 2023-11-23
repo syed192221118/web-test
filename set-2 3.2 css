@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.float-example {
+    width: 400px;
+    margin: 50px auto;
+}
+
+.box1, .box2 {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #333;
+}
+
+.box1 {
+    float: left;
+    background-color: #3498db;
+}
+
+.box2 {
+    float: left;
+    background-color: #e74c3c;
+}
