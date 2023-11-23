@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Relative Positioning</title>
+    <style>
+        .element {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+        }
+        .element1 {
+            top: 20px;
+            left: 20px;
+        }
+        .element2 {
+            top: 40px;
+            left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="element element1"></div>
+    <div class="element element2"></div>
+</body>
+</html>
