@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Class Test Marklist</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Class Test Marklist</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Marks</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Joe</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Hena</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <td>Trisha</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>john</td>
+                <td>88</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
