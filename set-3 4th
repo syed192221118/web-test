@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Styled Webpage with Internal CSS</title>
+    <link rel="stylesheet" href="3.4.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <p>This is a simple webpage with internal CSS styling.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="3.4.html">Section 1</a></li>
+            <li><a href="sec2.html">Section 2</a></li>
+            <li><a href="sec3.html">Section 3</a></li>
+        </ul>
+    </nav>
+
+    <section id="section1">
+        <h2>Section 1: Introduction</h2>
+        <p>This is the introduction section of the webpage.</p>
+    </section>
+
+    
+</body>
+</html>
