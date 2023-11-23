@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Box Model Example</title>
+    <style>
+        /* Apply styles to the container */
+        .box-container {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            border: 5px solid #333;
+            background-color: #f0f0f0;
+        }
+
+        /* Apply styles to the content */
+        .box-content {
+            width: 250px;
+            height: 100px;
+            background-color: #b3d9ff;
+            padding: 10px;
+            border: 1px solid #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Box Model Example</h2>
+
+    <!-- Container div representing the outer box -->
+    <div class="box-container">
+        <!-- Content div representing the inner box -->
+        <div class="box-content">
+            <p>Welcome to my youtube channel.</p>
+        </div>
+    </div>
+
+</body>
+</html>
