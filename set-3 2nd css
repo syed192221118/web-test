@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('gif.gif'); /* Replace 'background.gif' with the path to your GIF */
+    background-size: cover; /* Adjusts the background image size */
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Background transparency with RGBA */
+    border-radius: 10px; /* Rounded corners for the content */
+    transition: background-color 0.5s ease; /* Transition effect on background color */
+}
+
+.content:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+}
+
+h1, p {
+    margin: 0;
+}
+
