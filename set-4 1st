@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Inline and Internal Styles</title>
+
+    <!-- Inline Styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        /* Internal Styles */
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 2px solid #333;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Inline and Internal Styles</h1>
+
+   
+    <div style="text-align: center; margin: 20px;">
+        <p style="color: #333;">Inline styles.</p>
+    </div>
+
+   
+    <div class="container">
+        <p> Internal styles.</p>
+    </div>
+
+</body>
+</html>
