@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Emojis with Fixed Size</title>
+    <style>
+        
+        .emoji {
+            font-size: 24px; /* Set the fixed size for the emoji */
+            margin: 5px; /* Add some margin for spacing */
+        }
+
+        /* Example of using positioning in CSS */
+        .position-example {
+            position: relative;
+        }
+
+        .positioned-element {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Emojis with Fixed Size</h2>
+
+    <!-- Example 1: Emojis with Fixed Size -->
+    <p>
+        Emojis with fixed size:
+        <span class="emoji">😊</span>
+        <span class="emoji">🌟</span>
+        <span class="emoji">🚀</span>
+    </p>
+
+    <!-- Example 2: Positioning in CSS -->
+    <div class="position-example">
+        <div class="positioned-element">
+            This is a positioned element.
+        </div>
+    </div>
+
+</body>
+</html>
