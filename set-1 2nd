@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Nearest Odd Number Finder</title>
+</head>
+<body>
+
+    <script>
+        function findNearestOddNumber() {
+            var userNumber = parseInt(prompt("Enter a number:"));
+            if (!isNaN(userNumber)) {
+
+                var nearestOddNumber = userNumber % 2 === 0 ? userNumber - 1 : userNumber;
+                alert("The nearest odd number to " + userNumber + " is " + nearestOddNumber);
+            } else {
+
+                alert("Please enter a valid number.");
+            }
+        }
+                findNearestOddNumber();
+    </script>
+
+</body>
+</html>
