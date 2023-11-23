@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SIMATS SCHOOL OF ENGINEERING</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SIMATS SCHOOL OF ENGINEERING</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div style="padding: 20px;">
+        <h2>Welcome to SIMATS SCHOOL of Engineering</h2>
+        <p>This is a paragraph that describes the school. The paragraph will provide general information about the school and its mission.</p>
+    </div>
+
+    <footer>
+        &copy; 2022 SIMATS SCHOOL OF ENGINEERING. All rights reserved.
+    </footer>
+</body>
+</html>
