@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Types of Text</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Special Types of Text</h1>
+
+    <p>This is an example of <em>emphasized text</em>.</p>
+
+    <p>This is <mark>marked text</mark> within a paragraph.</p>
+
+    <p><ins>Inserted text</ins> is typically underlined.</p>
+
+    <p>Subscript and superscript text: H<sub>2</sub>O and E = mc<sup>2</sup></p>
+
+    <p><del>Deleted text</del> is usually displayed with a line through it.</p>
+
+    <p>This is an example of <strong>bold text</strong> and <em>emphasized text</em> together.</p>
+
+    <p>This is an example of <em>emphasized text</em> within <strong>bold and <i>italic</i> text</strong>.</p>
+
+</body>
+</html>
