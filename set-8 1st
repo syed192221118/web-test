@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Operations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>String Operations</h2>
+
+    <script>
+        // Return the character at a specified location
+        const originalString = "Hello, World!";
+        const charAtIndex = originalString.charAt(7);
+
+        document.write("<p>Original String: " + originalString + "</p>");
+        document.write("<p>Character at index 7: " + charAtIndex + "</p>");
+
+        // Return the Unicode of the character at the specified index
+        const unicodeAtIndex = originalString.charCodeAt(7);
+
+        document.write("<p>Unicode at index 7: " + unicodeAtIndex + "</p>");
+
+        // Join two or more strings and return a new joined string
+        const string1 = "Hello";
+        const string2 = ", ";
+        const string3 = "World!";
+        const joinedString = string1.concat(string2, string3);
+
+        document.write("<p>Joined String: " + joinedString + "</p>");
+
+        // Convert Unicode value to a string
+        const unicodeValue = 65; // Unicode value for 'A'
+        const charFromUnicode = String.fromCharCode(unicodeValue);
+
+        document.write("<p>Unicode Value: " + unicodeValue + "</p>");
+        document.write("<p>Character from Unicode: " + charFromUnicode + "</p>");
+
+        // Convert a string to uppercase letters
+        const lowercaseString = "hello, world!";
+        const uppercaseString = lowercaseString.toUpperCase();
+
+        document.write("<p>Original String: " + lowercaseString + "</p>");
+        document.write("<p>Uppercase String: " + uppercaseString + "</p>");
+    </script>
+
+</body>
+</html>
