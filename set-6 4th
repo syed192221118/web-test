@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotation and Citation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 4px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        cite {
+            display: block;
+            text-align: right;
+            color: #777;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Quotes and Citations</h1>
+
+    <blockquote>
+        <p>“The only way to do great work is to love what you do.”</p>
+        <cite>— Steve Jobs</cite>
+    </blockquote>
+
+    <blockquote>
+        <p>“In three words I can sum up everything I've learned about life: it goes on.”</p>
+        <cite>— Robert Frost</cite>
+    </blockquote>
+
+    <blockquote>
+        <p>“Success is not final, failure is not fatal: It is the courage to continue that counts.”</p>
+        <cite>— Winston Churchill</cite>
+    </blockquote>
+
+</body>
+</html>
