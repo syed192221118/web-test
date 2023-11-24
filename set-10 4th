@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Positioning Example</title>
+    <link rel="stylesheet" href="q4.css">
+</head>
+<body>
+
+    <h1>Positioning Example</h1>
+
+    <div class="relative-container">
+        <div class="relative-box">
+            Relative Box
+        </div>
+    </div>
+
+    <div class="absolute-container">
+        <div class="absolute-box">
+            Absolute Box
+        </div>
+    </div>
+
+</body>
+</html>
