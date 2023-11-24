@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Operations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>String Operations</h2>
+
+    <script>
+        // Split a string into an array of substrings
+        const originalString = "HelloWorldJavaScript";
+        const splitArray = originalString.split(',');
+
+        document.write("<p>Original String: " + originalString + "</p>");
+        document.write("<p>Split Array: " + splitArray.join(', ') + "</p>");
+
+        // Returns the position of the first found occurrence of a specified substring
+        const searchString = "World";
+        const position = originalString.indexOf(searchString);
+
+        document.write("<p>Position of '" + searchString + "': " + position + "</p>");
+
+        // Return a primitive value of a string
+        const numericString = "123";
+        const numericValue = Number(numericString);
+
+        document.write("<p>Numeric String: " + numericString + "</p>");
+        document.write("<p>Numeric Value: " + numericValue + "</p>");
+
+        // Joins two or more strings and returns a new joined string
+        const string1 = "Hello";
+        const string2 = " ";
+        const string3 = "World!";
+        const joinedString = string1.concat(string2, string3);
+
+        document.write("<p>Joined String: " + joinedString + "</p>");
+    </script>
+
+</body>
+</html>
