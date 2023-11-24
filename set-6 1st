@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Menu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .menu-section {
+            margin-bottom: 30px;
+        }
+
+        .menu-section h2 {
+            color: #555;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .menu-item span {
+            font-weight: bold;
+        }
+
+        .definition-list {
+            margin-top: 20px;
+        }
+
+        .definition-list dt {
+            font-weight: bold;
+        }
+
+        .definition-list dd {
+            margin-left: 0;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hotel Menu</h1>
+
+    <div class="menu-section">
+        <h2>Appetizers</h2>
+        <ul class="menu-list">
+            <li class="menu-item"><span>1. </span>Bruschetta</li>
+            <li class="menu-item"><span>2. </span>Spinach Artichoke Dip</li>
+            <li class="menu-item"><span>3. </span>Caprese Salad</li>
+        </ul>
+    </div>
+
+    <div class="menu-section">
+        <h2>Main Courses</h2>
+        <ol class="menu-list">
+            <li class="menu-item"><span>1. </span>Grilled Salmon</li>
+            <li class="menu-item"><span>2. </span>Chicken Alfredo</li>
+            <li class="menu-item"><span>3. </span>Vegetarian Pasta</li>
+        </ol>
+    </div>
+
+    <div class="menu-section">
+        <h2>Desserts</h2>
+        <ul class="menu-list">
+            <li class="menu-item"><span>1. </span>Chocolate Fondue</li>
+            <li class="menu-item"><span>2. </span>Apple Pie</li>
+            <li class="menu-item"><span>3. </span>Tiramisu</li>
+        </ul>
+    </div>
+
+    <div class="definition-list">
+        <h2>Beverages</h2>
+        <dl>
+            <dt>Soft Drinks</dt>
+            <dd>Coca-Cola, Pepsi, Sprite</dd>
+            <dt>Hot Drinks</dt>
+            <dd>Coffee, Tea, Hot Chocolate</dd>
+            <dt>Alcoholic Drinks</dt>
+            <dd>Wine, Beer, Cocktails</dd>
+        </dl>
+    </div>
+
+</body>
+</html>
