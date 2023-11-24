@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>More Animated Effects</title>
+    <link rel="stylesheet" href="q1.css">
+</head>
+<body>
+
+    <div class="animated-element">
+        <h1>Welcome to More Animated Effects</h1>
+        <p>This page features various animated effects using CSS.</p>
+        <button class="hover-effect">Hover Me</button>
+    </div>
+
+</body>
+</html>
